@@ -23,13 +23,19 @@
 3. Aplicar cinemachine y un objeto vacio llamado "Camara Target" al cubo.
 4. Además aplicar los scripts de StartAsset para el cubo: **Player Input**, **Start Assets Inputs**, **Third Person Controller**
 5. Asignar Virtual Camara, donde Follow y Look At a **Camara Target**, y en la configuración del **Third Person Controller** donde **cinemachine Camara Target** -> asignar **Camara Target**
-6. Crar un objeto **Canvas**, añadir **UI -> Button** para controlar la velocidad si es normal o turbo. Y otro texto para notar el número de objetos recolectados.
+6. Crar un objeto **Canvas**, añadir **UI -> Button** para controlar la velocidad si es normal o turbo. **UI -> Text** crea un texto para notar el número de objetos recolectados llamado **CollectCountText**, y otro para controlar la fuerza **Strength**
 7. ***Resultado:*** para conseguir que se mueve el "personaje"
 ![alt text](Unity_kVD4h6nvs3.gif)
 8. Crear un script para mostrar el ratón, para mostrar el ratón en la ventana **GAME**, se puede crear un **Input System**
 9. Modificar color de botones cuando sea seleccionado
 10. ***Resultado:***: se puede ver en la consola, cuando se selecciona botón de normal o de turbo, y la velocidad del personaje se cambia.
 ![alt text](Unity_uQSiRWevev.gif)
+11. Crear un script llamado: **PlayerController** para controlar el incremento y descremento de objectos y fuerza respectivamente.
+13. Crar dos esferas como objetos recolectados y crea un script llamado **Collectable** para controlar si el personaje tiene una magnitud cerca, por lo tanto la esfera ha sido recolectada, y desaparece, así incrementa el número de objectos recolectados y disminuye la fuerza.
+14.  Resultado:
+![alt text](Unity_OkrRDdPW1J.gif)
+
+
 
 ### 2. Agrega un personaje que al clickar sobre un botón de la UI se dirija hacia un objetivo estático en la escena.
 
